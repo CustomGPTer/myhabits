@@ -4,82 +4,76 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MyHabits release notes</title>
-<meta name="description" content="What is new in each version of MyHabits, the free habit tracker for Android, with the download for the latest version, 1.0.">
+<meta name="description" content="What changed in each version of MyHabits, with the file size and checksum to check your download.">
 <meta name="author" content="Jonathan Jackson">
 <link rel="canonical" href="https://customgpter.github.io/myhabits/releases.html">
 <meta name="theme-color" content="#f5f5fa" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0a0b0f" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#0d0d14" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MyHabits">
 <meta property="og:title" content="MyHabits release notes">
-<meta property="og:description" content="What is new in each version of MyHabits, the free habit tracker for Android, with the download for the latest version, 1.0.">
+<meta property="og:description" content="What changed in each version of MyHabits, with the file size and checksum to check your download.">
 <meta property="og:url" content="https://customgpter.github.io/myhabits/releases.html">
 <meta property="og:image" content="https://customgpter.github.io/myhabits/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Two MyHabits screens, Today and Stats, beside the MyHabits name">
+<meta property="og:image:alt" content="MyHabits&#x27; Today screen with the day&#x27;s ring and habits by time of day">
 <meta property="og:locale" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<link rel="preload" href="assets/fonts/literata-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/literata-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/site.css?v=1">
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+<link rel="preload" href="./assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="./assets/site.css?v=1">
+<link rel="stylesheet" href="./assets/house.css?v=1">
+<link rel="stylesheet" href="./assets/apps-list.css?v=1">
+<script src="./assets/apps-list.js?v=1" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="masthead">
 <div class="wrap">
-<a class="brand" href="./" aria-label="MyHabits home"><svg viewBox="0 0 108 108" aria-hidden="true"><defs><linearGradient id="mh-g" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#7c6cff"/><stop offset="1" stop-color="#4fd8f0"/></linearGradient></defs><rect width="108" height="108" rx="24" fill="#0a0b0f"/><g transform="translate(54 54) scale(1.32) translate(-54 -54)" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M67.5 37.9A21 21 0 1 0 74.3 48.6" stroke="url(#mh-g)" stroke-width="6.5"/><path d="M44.5 54.5 52 62 72.500 39.500" stroke="#fff" stroke-width="7"/></g></svg><span>MyHabits</span></a>
-<nav aria-label="Main"><ul><li><a href="./#features">Features</a></li><li><a href="compare.html">Compare</a></li><li><a href="releases.html" aria-current="page">Releases</a></li><li><a class="more-apps" href="more-apps.html"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"/></svg>More apps</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="terms.html">Terms</a></li><li><a href="licences.html">Licences</a></li></ul></nav>
+<a class="brand" href="./" aria-label="MyHabits home"><svg viewBox="0 0 108 108" aria-hidden="true"><defs><linearGradient id="mh-card" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#7c6cff"/><stop offset="1" stop-color="#4fd8f0"/></linearGradient></defs><rect width="108" height="108" rx="24" fill="#0a0b0f"/><g transform="translate(54 54) scale(1.32) translate(-54 -54)" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M67.5 37.9A21 21 0 1 0 74.3 48.6" stroke="url(#mh-card)" stroke-width="6.5"/><path d="M44.5 54.5 52 62 72.500 39.500" stroke="#fff" stroke-width="7"/></g></svg><span>MyHabits</span></a>
+<nav aria-label="Main"><ul><li><a href="./#features">Features</a></li><li><a href="./compare.html">Compare</a></li><li><a href="./releases.html" aria-current="page">Releases</a></li><li><a class="more-apps" href="./more-apps.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"/></svg>More apps</a></li></ul></nav>
+<a class="button small" href="https://github.com/CustomGPTer/myhabits/releases/latest/download/MyHabits.apk"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></svg>Download</a>
 </div>
 </header>
 <main id="main" class="doc">
 <div class="wrap">
 <div class="measure">
 <h1>Release notes</h1>
-<p class="lede">What was added, improved and fixed in each version of MyHabits, newest first. The current version is 1.0.</p>
-<div class="get">
-<a class="button" href="https://github.com/CustomGPTer/myhabits/releases/latest/download/MyHabits.apk">Download the latest version</a>
-<p class="facts">Version 1.0. Android app file, 2.7 MB. Android 8 or later. Free.</p>
-<p class="facts">Chrome may say the file might be harmful. It shows this for app files that do not come from Google Play. Choose Download anyway. To be sure of the file, see <a href="#checking">Checking your download</a>.</p>
-</div>
-<nav class="contents" aria-label="Versions"><strong>Versions</strong><ul><li><a href="#v1-0">1.0&ensp;First release</a></li></ul></nav>
-
-<article class="release" id="v1-0">
-<p class="ver">Version 1.0</p>
-<h2>First release</h2>
-<p class="when"><span class="tag">Latest</span>Released 19 November 2026</p>
-<h3>Added</h3>
-<ul><li>Four kinds of habit: tick, count, timed with a built-in timer, and quit, which counts the days since you stopped.</li><li>Schedules: every day, chosen weekdays, a number of times a week, every few days, and set dates in the month.</li><li>Today: a week strip with a ring for each day, a progress card, and habits grouped by morning, afternoon, evening and any time. Swipe right to finish and left for a rest day.</li><li>Any earlier day can be opened and corrected, from the week strip or from a habit&#x27;s calendar.</li><li>Streaks with rest days, streak freezes (one earned for every seven days in a row, two held at most) and a holiday break. Freezes can be switched off.</li><li>Celebrations: a burst on every tick, and full-screen moments with confetti, sound and vibration for the first tick, streak milestones, quit milestones, a perfect day, a new badge, a new level and each stage of a journey. Effects can be set to Full, Reduced or Off.</li><li>An animated opening screen that greets you with today&#x27;s progress. It can be skipped or switched off.</li><li>Three welcome screens that set your wake and wind-down times and offer starter habits.</li><li>A library of 120 ready-made habits in eleven groups, with search, and an editor for your own with 12 colours and a set of icons.</li><li>Twelve 30-day journeys in three stages each, with a line of guidance for every day, a 30-day grid and a card on Today.</li><li>Reminders: up to six times a day for each habit, with Done or Add 1, Snooze and Rest day buttons. An evening round-up, an optional morning plan, and a snooze of 10, 30 or 60 minutes.</li><li>A Reminders not arriving page that checks the phone settings reminders depend on and sends a test.</li><li>Stats: level and points, totals, this week against last, a month of rings, a heat-map of every day, best weekdays, a twelve-week trend and each habit ranked over 30 days.</li><li>A page for every habit: streak, next milestone, best run, on-target rate, a calendar, a heat-map, weekly totals and its weekday pattern.</li><li>Levels, and 38 badges in six groups.</li><li>Share pictures for a habit, a streak, a badge, a perfect day, a level or your progress.</li><li>Notes on any habit on any day, listed on the habit&#x27;s page.</li><li>An optional daily mood check-in, with a mood card on Stats. It is off until you switch it on.</li><li>Three home-screen widgets: Today&#x27;s habits, Today&#x27;s ring and One habit.</li><li>Backup: save a backup file, restore from one with an undo, and an automatic daily copy to a folder you pick, keeping the newest seven.</li><li>Export to an Excel spreadsheet with Habits, Daily log and Mood sheets.</li><li>Dark, light and follow-the-phone themes, six accent colours, and a choice of the day the week starts on.</li></ul>
-<h3>Good to know</h3>
-<ul><li>Reminders can arrive a few minutes late on phones that restrict background apps. The Reminders not arriving page in Me shows what to change.</li><li>The app cannot check for updates, because it has no internet access. New versions are listed on this page.</li><li>Backup files are not encrypted.</li><li>The automatic backup needs a folder on the phone or a storage app that lets other apps save into its folders. If it stops working, pick the folder again.</li><li>A habit ticked from a widget or a notification is recorded without a celebration. Badges and levels it earns are added the next time the app is opened.</li><li>The app is in English only.</li></ul>
-</article>
-
-<h2 id="updating">Updating</h2>
-<p>Download the newest version and open the file. Android installs it over the one you have, and your habits, history, badges and settings are kept. If you want to be careful, save a backup file first, in <span class="path">Me</span> under Backup.</p>
-
+<p class="lede">What changed in each version of MyHabits. The newest is at the top.</p>
+<section class="release" id="v1.0"><h2><span class="ver">Version 1.0</span> <span class="when">19 November 2026</span><span class="tag">Latest</span></h2><ul><li>Four kinds of habit: tick, count, timed with a built-in timer, and quit, which counts the days since you stopped.</li><li>Schedules: every day, chosen weekdays, a number of times a week, every few days, and set dates in the month.</li><li>Today: a week strip with a ring for each day, a progress card, and habits grouped by morning, afternoon, evening and any time. Swipe right to finish and left for a rest day.</li><li>Any earlier day can be opened and corrected, from the week strip or from a habit&#x27;s calendar.</li><li>Streaks with rest days, streak freezes (one earned for every seven days in a row, two held at most) and a holiday break. Freezes can be switched off.</li><li>Celebrations: a burst on every tick, and full-screen moments with confetti, sound and vibration for the first tick, streak milestones, quit milestones, a perfect day, a new badge, a new level and each stage of a journey. Effects can be set to Full, Reduced or Off.</li><li>An animated opening screen that greets you with today&#x27;s progress. It can be skipped or switched off.</li><li>Three welcome screens that set your wake and wind-down times and offer starter habits.</li><li>A library of 120 ready-made habits in eleven groups, with search, and an editor for your own with 12 colours and a set of icons.</li><li>Twelve 30-day journeys in three stages each, with a line of guidance for every day, a 30-day grid and a card on Today.</li><li>Reminders: up to six times a day for each habit, with Done or Add 1, Snooze and Rest day buttons. An evening round-up, an optional morning plan, and a snooze of 10, 30 or 60 minutes.</li><li>A Reminders not arriving page that checks the phone settings reminders depend on and sends a test.</li><li>Stats: level and points, totals, this week against last, a month of rings, a heat-map of every day, best weekdays, a twelve-week trend and each habit ranked over 30 days.</li><li>A page for every habit: streak, next milestone, best run, on-target rate, a calendar, a heat-map, weekly totals and its weekday pattern.</li><li>Levels, and 38 badges in six groups.</li><li>Share pictures for a habit, a streak, a badge, a perfect day, a level or your progress.</li><li>Notes on any habit on any day, listed on the habit&#x27;s page.</li><li>An optional daily mood check-in, with a mood card on Stats. It is off until you switch it on.</li><li>Three home-screen widgets: Today&#x27;s habits, Today&#x27;s ring and One habit.</li><li>Backup: save a backup file, restore from one with an undo, and an automatic daily copy to a folder you pick, keeping the newest seven.</li><li>Export to an Excel spreadsheet with Habits, Daily log and Mood sheets.</li><li>Dark, light and follow-the-phone themes, six accent colours, and a choice of the day the week starts on.</li><li>Reminders can arrive a few minutes late on phones that restrict background apps. The Reminders not arriving page in Me shows what to change.</li><li>The app cannot check for updates, because it has no internet access. New versions are listed on this page.</li><li>Backup files are not encrypted.</li><li>The automatic backup needs a folder on the phone or a storage app that lets other apps save into its folders. If it stops working, pick the folder again.</li><li>A habit ticked from a widget or a notification is recorded without a celebration. Badges and levels it earns are added the next time the app is opened.</li><li>The app is in English only.</li></ul></section>
 <h2 id="checking">Checking your download</h2>
-<p>The app file for version 1.0 is 2,802,518 bytes. Its SHA-256 checksum is:</p>
-<p class="sum"><code>810c9c9dc9502fdabc990584b46a23951003e644af726cb8d4a26e573e6ca54f</code></p>
-<p>Earlier downloads and their files are listed on <a href="https://github.com/CustomGPTer/myhabits/releases">GitHub Releases</a>. To report a problem with a version, <a href="https://github.com/CustomGPTer/myhabits/issues">open an issue on GitHub</a>.</p>
+<p>The file for version 1.0.0 is called <code>MyHabits.apk</code>. It is 2.8 MB (2,802,518 bytes). Its SHA-256 checksum is:</p>
+<p><code class="sum">810c9c9dc9502fdabc990584b46a23951003e644af726cb8d4a26e573e6ca54f</code></p>
+<p>On Windows, run <code>certutil -hashfile MyHabits.apk SHA256</code> and compare. Every version is signed with the same key, so each one installs over the last and keeps what you have saved.</p>
+<p>Older versions are on the <a href="https://github.com/CustomGPTer/myhabits/releases">GitHub releases page</a>.</p>
 </div>
 </div>
 </main>
 <footer class="colophon">
 <div class="wrap">
 <div>
+<a class="brand" href="./" aria-label="MyHabits home"><svg viewBox="0 0 108 108" aria-hidden="true"><defs><linearGradient id="mh-card" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#7c6cff"/><stop offset="1" stop-color="#4fd8f0"/></linearGradient></defs><rect width="108" height="108" rx="24" fill="#0a0b0f"/><g transform="translate(54 54) scale(1.32) translate(-54 -54)" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M67.5 37.9A21 21 0 1 0 74.3 48.6" stroke="url(#mh-card)" stroke-width="6.5"/><path d="M44.5 54.5 52 62 72.500 39.500" stroke="#fff" stroke-width="7"/></g></svg><span>MyHabits</span></a>
 <p>&copy; 2026 Jonathan Jackson. MyHabits is an independent app.</p>
-<p>This site uses no cookies and no tracking. It is set in Literata and Atkinson Hyperlegible.</p>
+<p>This site uses no cookies and no tracking.</p>
+<p>Set in Bricolage Grotesque and Atkinson Hyperlegible.</p>
 </div>
-<nav aria-label="Footer"><ul>
+<nav aria-label="The app"><h2>The app</h2><ul>
 <li><a href="./">Home</a></li>
-<li><a href="compare.html">Compare</a></li>
-<li><a href="releases.html">Release notes</a></li>
-<li><a href="more-apps.html">More apps</a></li>
-<li><a href="privacy.html">Privacy policy</a></li>
-<li><a href="terms.html">Terms of use</a></li>
-<li><a href="licences.html">Licences</a></li>
+<li><a href="./compare.html">Compare</a></li>
+<li><a href="./releases.html">Release notes</a></li>
+
+</ul></nav>
+<nav aria-label="Legal"><h2>Legal</h2><ul>
+<li><a href="./privacy.html">Privacy policy</a></li>
+<li><a href="./terms.html">Terms of use</a></li>
+<li><a href="./licences.html">Licences</a></li>
+</ul></nav>
+<nav aria-label="More"><h2>More</h2><ul>
+<li><a href="./more-apps.html">More apps</a></li>
+<li><a href="https://customgpter.github.io/">All apps</a></li>
 <li><a href="https://github.com/CustomGPTer/myhabits/issues">Contact</a></li>
 </ul></nav>
 </div>
